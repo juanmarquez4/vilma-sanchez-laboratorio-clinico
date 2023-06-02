@@ -5,6 +5,7 @@ import Nosotros from './pages/Nosotros';
 import Examenes from './pages/Examenes';
 import Contactenos from './pages/Contactenos';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 import './styles/App.css';
 
 
@@ -31,6 +32,7 @@ function App() {
             element={<Contactenos/>}
             />
           </Routes>
+        <Footer/>
       </div>      
     </Router>
     
