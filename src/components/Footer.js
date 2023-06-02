@@ -1,10 +1,15 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Navbar } from "react-bootstrap";
 
 function Footer() {
     return (
-        <Container>
-            <p>Footer Works!</p>
+        <Container fluid className="d-flex flex-wrap justify-content-between">
+           <Navbar.Text className="">
+           ©Copyright 2023 - Todos los derechos reservados.
+          </Navbar.Text>
+          <Navbar.Text className="">
+            Creado por:<a href="https://juanmarquez4.github.io/resume/" target="_blank" rel="noreferrer" >Juan Marquez</a>
+          </Navbar.Text>
         </Container>
     )
 };

@@ -2,12 +2,14 @@ import React from "react";
 import Hero from '../components/Hero'
 import CardSection from '../components/CardSection'
 
+import data from '../utils/data'
 
-const Home = () => {
+
+function Home() {
     return(
       <>
-      <Hero/>
-       <CardSection/>
+       <Hero dataHero={data.hero}/>
+       <CardSection dataCard={data.card} />
       </>
        
    
