@@ -1,10 +1,11 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 function Footer() {
     return (
-        <div>
-            <p>Footer Works</p>
-        </div>
+        <Container>
+            <p>Footer Works!</p>
+        </Container>
     )
 };
 
