@@ -1,15 +1,10 @@
 body {
-  height: 100vh;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-#root {
-  height: 100%
 }
 
 code {
@@ -20,39 +15,34 @@ code {
 .App {
   height: 100%;
 }
+/* Heading Style ********************************/
 
+.heading {
+  text-align: center;
+  margin-top: 48px;
+}
 /* Hero Style ***********************************/
 
-/* .hero-image {
-  width: 100%;
-} */
+.hero-container {
+margin-top: 40px;
+}
 
-/* The hero image */
-/* .hero-container{
-max-height: 500px;
-} */
-/* .hero-image { */
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  /* opacity: 0.8; */
+.location-container {
+  margin: 40px 0;
+}
+.image {
+  height: 500px;
+  object-fit: cover;
+}
 
-  /* Set a specific height */
-  /* width: 100%;
-  height: 100%; */
+.card-image {
+  height: 350px;
+  object-fit: cover;
+}
 
-  /* Position and center the image to scale nicely on all screens */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-} */
+/* Location Style *******************************/
 
+.location-card {
+  width: 50%;
+}
 
-/* Place text in the middle of the image */
-/* .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-} */

@@ -6,13 +6,13 @@ import Examenes from './pages/Examenes';
 import Contactenos from './pages/Contactenos';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
-import './styles/App.css';
+
 
 
 function App () {
     return (
       <Router>
-        <div className="App">
+        {/* <div className="App"> */}
           <Navigation/>
             <Routes>
               <Route
@@ -33,7 +33,7 @@ function App () {
               />
             </Routes>
           <Footer/>
-        </div>      
+        {/* </div>       */}
       </Router>
       
     );
