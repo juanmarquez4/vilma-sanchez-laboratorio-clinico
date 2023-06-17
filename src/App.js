@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Nosotros from './pages/Nosotros';
+import Servicios from './pages/Servicios';
 import Examenes from './pages/Examenes';
 import Contactenos from './pages/Contactenos';
 import Navigation from './components/Navigation';
@@ -20,8 +20,8 @@ function App () {
               element={<Home/>}
               />
               <Route
-              path="/nosotros"
-              element={<Nosotros/>}
+              path="/servicios"
+              element={<Servicios/>}
               />
               <Route
               path="/examenes"

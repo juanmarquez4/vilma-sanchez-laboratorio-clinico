@@ -15,14 +15,14 @@ const data = {
     },
     {
     id: 1,
-    title: 'Clientes',
+    title: 'Examenes',
     imgSrc: logo1,
     text: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
   
     },
     {
     id: 2,
-    title: 'Funciona',
+    title: 'Contactenos',
     imgSrc: logo2,
     text: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
     }
@@ -31,20 +31,20 @@ const data = {
     {
     id:0,
     imgSrc:hero0,
-    title:'First slide label' ,
-    subtitle:'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+    title:'Servicios' ,
+    subtitle:'Conoce nuestros servicios'
     },
     {
     id:1,
     imgSrc:hero1,
-    title:'Second slide label' ,
-    subtitle:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    title:'Examenes' ,
+    subtitle:'Conoce nuestra lista de examenes'
     },
     {
     id:2,
     imgSrc:hero2,
-    title:'Third slide' ,
-    subtitle:'Third slide label'
+    title:'Contactenos' ,
+    subtitle:'Conoce la ubicacion de nuestras sucursales'
     }
   ]
 };

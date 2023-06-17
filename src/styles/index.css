@@ -27,9 +27,6 @@ code {
 margin-top: 40px;
 }
 
-.location-container {
-  margin: 40px 0;
-}
 .image {
   height: 500px;
   object-fit: cover;
@@ -41,6 +38,10 @@ margin-top: 40px;
 }
 
 /* Location Style *******************************/
+
+.location-container {
+  margin: 40px 0;
+}
 
 .location-card {
   width: 50%;

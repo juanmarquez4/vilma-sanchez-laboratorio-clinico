@@ -13,7 +13,7 @@ function Home() {
        <Hero dataHero={data.hero}/>
        <h1 className="heading">Examenes de laboratorio</h1>
        <CardSection dataCard={data.card} />
-       <h1 className="heading">Contáctenos</h1>
+       <h1 className="heading">Horarios de atencion y ubicacion</h1>
        <Location/>
       </>
        

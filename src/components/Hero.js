@@ -6,7 +6,7 @@ function Hero ({dataHero}){
         <Container className="hero-container">
             <Carousel >
                 {dataHero.map((heroData) => (
-                    <Carousel.Item key={heroData.id}>
+                    <Carousel.Item interval={10000} key={heroData.id}>
                     <img
                     className="image d-block w-100"
                     src={heroData.imgSrc}
