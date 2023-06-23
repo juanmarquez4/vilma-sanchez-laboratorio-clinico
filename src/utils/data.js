@@ -46,6 +46,59 @@ const data = {
     title:'Contactenos' ,
     subtitle:'Conoce la ubicacion de nuestras sucursales'
     }
+  ],
+  examenes:[
+    {id:0,
+    prueba: 'Perfil 20'
+    },
+    {id:1,
+    prueba: 'Prueba de Embarazo (En Orina y Sangre)'
+    },
+    {id:2,
+    prueba: 'Estudio Bacteriologico'
+    },
+    {id:3,
+    prueba: 'Urocultivo'
+    },
+    {id:4,
+    prueba: 'Coprocultivo'
+    },
+    {id:5,
+    prueba: 'Secreciones'
+    },
+    {id:6,
+    prueba: 'Perfil Tiroideo'
+    },
+    {id:7,
+    prueba: 'Hormonas'
+    },
+    {id:8,
+    prueba: 'Antigeno Prostatico'
+    },
+    {id:9,
+    prueba: 'Espermatograma'
+    },
+    {id:10,
+    prueba: 'Pruebas Inmunologicas'
+    },
+    {id:11,
+    prueba: 'Pruebas Alergicas'
+    },
+    {id:12,
+    prueba: 'Despistaje del Sida'
+    },
+    {id:13,
+    prueba: 'Marcadores Tumorales'
+    },
+    {id:14,
+    prueba: 'Screen o Riesgo Pre Natal'
+    },
+    {id:15,
+    prueba: 'Perfil Reumatologico'
+    },
+    {id:16,
+    prueba: 'etc.'
+    },
   ]
 };
 

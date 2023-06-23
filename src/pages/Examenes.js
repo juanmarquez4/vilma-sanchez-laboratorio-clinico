@@ -1,9 +1,13 @@
 import React from "react";
+import ExamenesSection from '../components/ExamenesSection'
 
+import data from "../utils/data";
 
 const Examenes = () => {
     return(
-        <h1>Examenes Page</h1>
+       <>
+        <ExamenesSection dataExamenes={data.examenes}/>
+       </>
     )
 };
 
