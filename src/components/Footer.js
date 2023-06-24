@@ -3,7 +3,7 @@ import { Container, Navbar } from "react-bootstrap";
 
 function Footer() {
     return (
-        <Container fluid className="d-flex flex-wrap justify-content-between">
+        <Container fluid className="d-flex flex-wrap justify-content-between p-2">
            <Navbar.Text className="">
            ©Copyright 2023 - Todos los derechos reservados.
           </Navbar.Text>

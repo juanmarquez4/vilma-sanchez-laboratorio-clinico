@@ -3,11 +3,10 @@ import { Container, Card } from "react-bootstrap";
 
 export default function CardSection ({dataExamenes}) {
     return(
-        <Container id='examenes' className="card-section-container  justify-content-between  py-0 my-5">
+        <Container id='examenes' className="card-section-container d-flex flex-wrap justify-content-between  py-0 my-5">
                     {dataExamenes.map((examenesData) => (
-                        <Card style={{ minWidth: '18rem', border:'none' }} key={examenesData.id}>
+                        <Card style={{ width: '18rem', border:'', marginBottom:'16px' }} key={examenesData.id}>
                             <Card.Body>
-                                
                                 <Card.Text>{examenesData.prueba}</Card.Text>
                             </Card.Body>
                         </Card>
