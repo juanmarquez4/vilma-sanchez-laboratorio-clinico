@@ -16,7 +16,7 @@ function App () {
           <Navigation/>
             <Routes>
               <Route
-              path="/"
+              path="*"
               element={<Home/>}
               />
               {/* <Route
