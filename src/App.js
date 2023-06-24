@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import { HashRouter as Router } from "react-router-dom";
 import Home from './pages/Home';
 import Servicios from './pages/Servicios';
 import Examenes from './pages/Examenes';
@@ -11,7 +12,7 @@ import Footer from './components/Footer';
 
 function App () {
     return (
-      <>
+      <Router>
         {/* <div className="App"> */}
           <Navigation/>
             <Routes>
@@ -34,7 +35,7 @@ function App () {
             </Routes>
           <Footer/>
         {/* </div>       */}
-      </>
+      </Router>
       
     );
   
