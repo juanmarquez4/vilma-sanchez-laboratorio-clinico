@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vilma-sanchez-laboratorio-clinico/static/css/main.5c2d839c.css",
-    "main.js": "/vilma-sanchez-laboratorio-clinico/static/js/main.76868695.js",
+    "main.js": "/vilma-sanchez-laboratorio-clinico/static/js/main.1d3e6834.js",
     "static/js/787.0a417565.chunk.js": "/vilma-sanchez-laboratorio-clinico/static/js/787.0a417565.chunk.js",
     "static/media/pexels-charliehelen-robinson-6622518.jpg": "/vilma-sanchez-laboratorio-clinico/static/media/pexels-charliehelen-robinson-6622518.f7c35843a75184d18d52.jpg",
     "static/media/pexels-karolina-grabowska-6627659.jpg": "/vilma-sanchez-laboratorio-clinico/static/media/pexels-karolina-grabowska-6627659.cc89b7dbd7bebea4b3c7.jpg",
@@ -11,11 +11,11 @@
     "static/media/pexels-martin-lopez-954583.jpg": "/vilma-sanchez-laboratorio-clinico/static/media/pexels-martin-lopez-954583.3c8ce1375caf7c419df2.jpg",
     "index.html": "/vilma-sanchez-laboratorio-clinico/index.html",
     "main.5c2d839c.css.map": "/vilma-sanchez-laboratorio-clinico/static/css/main.5c2d839c.css.map",
-    "main.76868695.js.map": "/vilma-sanchez-laboratorio-clinico/static/js/main.76868695.js.map",
+    "main.1d3e6834.js.map": "/vilma-sanchez-laboratorio-clinico/static/js/main.1d3e6834.js.map",
     "787.0a417565.chunk.js.map": "/vilma-sanchez-laboratorio-clinico/static/js/787.0a417565.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c2d839c.css",
-    "static/js/main.76868695.js"
+    "static/js/main.1d3e6834.js"
   ]
 }
