@@ -7,11 +7,11 @@ function Navigation() {
       <Container fluid className="p-0">
         <Navbar expand="lg" variant="light" bg="transparent">
           <Container fluid>
-            <Navbar.Brand href="/">Vilma Sanchez Laboratorio Clinico</Navbar.Brand>
+            <Navbar.Brand href="#hero">Vilma Sanchez Laboratorio Clinico</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">
-                <Nav.Link href="/">Inicio</Nav.Link>
+              
                 <a className='nav-link' href="#servicios">Servicios</a>
                 <a className='nav-link' href="#examenes">Exámenes</a>
                 <a className='nav-link' href="#contactenos">Contáctenos</a>

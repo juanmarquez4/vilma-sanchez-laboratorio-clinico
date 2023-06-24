@@ -3,7 +3,7 @@ import { Container, Carousel } from "react-bootstrap";
 
 function Hero ({dataHero}){
     return(
-        <Container className="hero-container">
+        <Container id="hero" className="hero-container">
             <Carousel >
                 {dataHero.map((heroData) => (
                     <Carousel.Item interval={10000} key={heroData.id}>
