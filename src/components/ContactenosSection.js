@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Card } from "react-bootstrap";
-import MyComponent from "../components/MyComponent";
+import MyComponent from "./MyComponent";
 
 
 function Location () {
 
     
     return (
-        <Container className="location-container d-flex">
+        <Container id='contactenos' className="location-container d-flex">
             <Card className="location-card border-0">
                 <h3>Horarios:</h3>
                 <p>7:00 a.m. - 5:00 p.m.</p>
