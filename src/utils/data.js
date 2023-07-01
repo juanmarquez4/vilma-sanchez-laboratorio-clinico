@@ -52,7 +52,7 @@ const data = {
     prueba: 'Perfil 20'
     },
     {id:1,
-    prueba: 'Prueba de Embarazo (En Orina y Sangre)'
+    prueba: 'Prueba de Embarazo'
     },
     {id:2,
     prueba: 'Estudio Bacteriologico'
